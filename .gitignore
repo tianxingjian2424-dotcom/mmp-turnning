@@ -1,0 +1,62 @@
+### Core LaTeX Auxiliary Files ###
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.dvi
+*.ps
+
+### Bibliography and Index Files ###
+# BibTeX / Biber
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# Glossaries and Indices
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.ist
+*.idx
+*.ind
+*.ilg
+*.acn
+*.acr
+*.alg
+
+### Package Specific ###
+# Minted package (code highlighting)
+_minted*
+
+# PythonTeX
+pythontex-files-*/
+
+### Editor & OS Specific ###
+# VS Code / LaTeX Workshop
+.vscode/
+
+# WinEdt
+*.bak
+*.sav
+
+# Kile
+*.kdev4
+
+# macOS
+.DS_Store
+
+# Vim / Emacs
+*.swp
+*~
+
+### Output Files (Optional) ###
+# Uncomment the line below if you do NOT want to version control the PDF
+# *.pdf
